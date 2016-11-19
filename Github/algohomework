@@ -1,0 +1,102 @@
+//Divide by 5 and 7
+
+function divideBy5Or7(){
+  for(var i=1; i<=1000;i++)
+    {
+      if(i % 5 === 0 && i % 7 === 0)
+        {
+          
+          console.log(i);
+        }
+      
+    }
+  
+}
+divideBy5Or7();
+
+
+//divide by 5 or 7
+function divideBy5Or7(){
+  for(var i=1; i<=1000;i++)
+    {
+      if(i % 5 === 0 || i % 7 === 0)
+        {
+          
+          console.log(i);
+        }
+      
+    }
+  
+}
+divideBy5Or7();
+
+//divide by 3
+function By3()
+{
+  for(var i=1000;i<=1;i--)
+    {
+      if(i % 3 !== 0)
+        {
+          
+          console.log(i);
+        }
+      
+    }
+  
+}
+By3();
+
+//Add even numbers---------------------------------------------------------
+var sum =0;
+function addEvenNumbers(){
+  for(var i=2; i<=500; i=i+2){
+    
+    sum= sum+i;
+    console.log("The Number is : " +i +" And sum is : " + sum);
+      
+    }
+      
+  }
+addEvenNumbers()8555555555555500
+
+//---------------------------------------------------------------------
+//Find MINMAX
+
+function MinMax(array)
+{
+  var max=array[0];
+  var min=array[0];
+  for(var i=0; i<array.length;i++)
+  {
+    if(max < array[i])
+    {
+    max=array[i];
+    console.log("max is : "+ max);
+    }     
+    if(min > array[i])
+      {
+        min=array[i];
+        console.log("min is : " + min);
+      }
+    
+   }
+   
+ }
+
+
+MinMax([9,2,7,5,11,3]);
+
+//find average------------------------------------------------------------
+var sum=0;
+var avg=0;
+function avgArr(arr){
+  for(var i=0; i<arr.length; i++){
+   sum=sum+arr[i];
+    
+  }
+  console.log("sum is: " + sum);
+  avg=sum/arr.length;
+  console.log("Average is: "+ avg);
+}
+
+avgArr([9,2,7,11,5,3])

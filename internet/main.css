@@ -1,0 +1,118 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    max-width:80%;
+    margin: 0 auto;
+}
+img
+{
+    max-width:7%;
+    max-height: 10%;
+    display: inline-block;
+}
+h1
+{
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top
+    
+}
+
+h1 span
+{
+    color: skyblue;
+}
+h2
+{
+    background: linear-gradient(#3776ab, #4b80ab, #3776ab);
+    padding: 10px;
+    color:white;
+    margin-top:-18px;
+}
+section h4
+{
+    padding:1em;
+}
+.red
+{
+    color:red;
+}
+#mainContent
+{
+    max-width: 100%;
+    background-color: lightcyan;
+}
+.blue
+{
+    color:blue;
+}
+
+aside
+{
+    max-width:24.5%;
+    height:450px;
+    background-color: antiquewhite;
+    display: inline-block;
+    padding:.5em;
+    vertical-align: top;
+    text-align: center;
+}
+button
+{
+    display: block;
+    padding:1em;
+    margin:1em;
+    border-radius: 5px;
+    width:160px;
+    height:30px;
+}
+.button1
+{
+    background: linear-gradient(#4b80ab, #3776ab);
+}
+.button2
+{
+    background: linear-gradient(yellow,orange);
+}
+.button3
+{
+    background: linear-gradient(skyblue, #3776ab);
+}
+section
+{
+    background-image:url(images/ad_background.png);
+    height:250px;
+    margin:1em;
+    color:white;
+}
+section img
+{
+    width:550px;
+    height:550px;
+        
+}
+article
+{
+    max-width: 74%;
+    display: inline-block;
+    background-color: lightgray;
+    height:450px;
+    margin-left:1%;
+}
+.top
+{
+    vertical-align: top;
+    margin-left:60%;
+    max-width: 40%;
+    font-size: small;
+}
+.middle li
+{
+    padding:.25em;
+    margin-left:20px;
+}

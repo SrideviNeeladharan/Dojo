@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    width:80%;
+    height: auto;
+    margin: 0 auto;
+    background-color: darkgray;
+}
+body
+{
+    background-color: lightgray;
+    padding-left:1em;
+    padding-right: 1em;
+}
+header, h3
+{
+    color:white;
+    max-width: 100%;
+    margin: 1em;
+    padding:1em;
+    text-align: center;
+    background-color: silver;
+}
+h2
+{
+    padding: 1em;
+    color:lightcoral;
+}
+nav 
+{
+    max-width: 100%;
+    background-color: silver;
+    display: inline-block;
+    margin:1em;
+    align-items: center;
+}
+ul li
+{ 
+    display: inline-block;
+    text-align: center;
+    max-width: 100%;
+    list-style: none;
+    padding: 1em 3em 1em 3em;
+}
+p
+{
+    font-family: sans-serif;
+    font-size: medium;
+    line-height: 2em;
+    padding:1em;
+}
+span
+{
+    font-size: medium;
+    line-height: 2em;
+    padding:1em;
+    color:white;
+}
+article
+{
+   
+    max-width:100%;
+}
+aside
+{
+    display: inline-block;
+    max-width: 40%;
+    padding-left:10px;
+    float: right;
+    background-color: silver;
+    margin:1em;
+    
+}
+section{
+    
+    max-width:65%;
+    display: inline;
+    align-items: center;
+    margin:1em;
+}
+table, caption
+{
+    margin:1em;
+    
+}
+th, td {
+    padding: 1em;
+    text-align: center;
+}
+
+table, th, td
+{
+    max-width: 100%;
+    border:2px solid lime;
+    border-collapse: collapse;
+    background-color: silver;
+}
+.form
+{
+    display: block;
+    clear: both;
+    background-color: silver;
+}
+label, input, button, select
+{
+
+    padding:1em;
+    margin-bottom: 1em;
+}
+footer
+{
+    border-top: 2px solid darkgray;
+    padding:1em;
+    margin-top:1em;
+}

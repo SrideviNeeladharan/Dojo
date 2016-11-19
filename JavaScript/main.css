@@ -1,0 +1,57 @@
+
+body
+{
+    background-color: #004d99;
+    margin:1em auto;
+    max-width: 80%;
+}
+header
+{
+    
+    border-radius: 10px;
+    background-color:red;
+    padding: .15em 2em .15em 3em;
+    margin:1em;
+    color:whitesmoke;
+}
+nav
+{
+    max-width:20%;
+    background-color:lightseagreen;
+    border-radius: 25px;
+    padding: 0 1em 1em 1em ;
+    margin:1em;
+    display: inline-block;
+    vertical-align: top;
+    color:aqua;
+}
+a
+{
+    color:aqua;
+}
+article
+{
+    max-width:63%;
+    background-color: black;
+    border-radius: 25px;
+    padding:2em;
+    margin:1em 0 1em 3em;;
+    display: inline-block;
+    vertical-align: top;
+    color:white;
+    
+}
+
+footer
+{
+    
+    border:1px solid gray;
+    border-radius: 25px;
+    background-color: silver;
+    padding-left: 2em;
+    margin:1em;
+}
+span
+{
+    color:purple;
+}

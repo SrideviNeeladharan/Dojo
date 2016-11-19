@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOJO -html</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+            <script src="script.js"></script> 
+    </head>
+    <body>
+        <h1>Greetings!</h1>
+            <h3>Here's my todo List</h3>
+            <ul>
+                <li>Learn MEAN Stack
+                <a href="https://www.codeschool.com/mean/?utm_source=google&utm_medium=cpc&gclid=CJXo-qmbktACFUtNfgodA7wKsA" target="_blank"><img src="maxresdefault.jpg" alt ="Mean stack" height="20%" width="30%"></a>
+                </li>
+
+                <li>Climb Mt.Everest
+                 <a href="https://www.theguardian.com/world/everest" target="_blank"><img src="mt.everest.jpg" height="20%" width="30%" alt ="Mount Everest"></a>
+                </li>
+            </ul>
+
+            <h3>Add a new to do List</h3>
+            <form>
+            <label>Text:</label>
+            <input type="text" id="inputValue"> 
+            <label>Image:</label>
+            <input type="file" name="filename" accept="image/gif, image/jpeg, image/png">
+            <button type="submit" id="submit" onclick="placeholder()">Add To-do list</button>
+            </form>
+        
+            <h3>New Items Added</h3>
+            <p id="newItem"></p>
+     
+
+    </body>
+</html>
